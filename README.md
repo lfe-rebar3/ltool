@@ -1,12 +1,31 @@
 # ltool
 
+[![][ltool-logo]][ltool-logo-large]
 
-## Introduction
+[ltool-logo]: resources/images/ltool-x250.png
+[ltool-logo-large]: resources/images/ltool-x1500.png
+
+
+##### Contents
+
+* [Introduction](#introduction-)
+* [Dependencies](#dependencies-)
+* [Installation](#installation-)
+* [Usage](#usage-)
+
+
+## Introduction [&#x219F;](#contents)
 
 Add content to me here!
 
 
-## Installation
+## Dependencies [&#x219F;](#contents)
+
+This project assumes that you have
+[rebar3](https://github.com/rebar/rebar3) installed somwhere in your ``$PATH``.
+
+
+## Installation [&#x219F;](#contents)
 
 Just add it to your ``rebar.config`` deps:
 
@@ -25,6 +44,6 @@ And then do the usual:
 ```
 
 
-## Usage
+## Usage [&#x219F;](#contents)
 
 Add content to me here!
