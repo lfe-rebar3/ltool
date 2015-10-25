@@ -2,8 +2,8 @@
 
 [![][ltool-logo]][ltool-logo-large]
 
-[ltool-logo]: resources/images/ltool-x250.png
-[ltool-logo-large]: resources/images/ltool-x1500.png
+[ltool-logo]: resources/images/ltool-x250-grey.png
+[ltool-logo-large]: resources/images/ltool-x1500-grey.png
 
 
 ##### Contents
