@@ -5,6 +5,7 @@
 [ltool-logo]: resources/images/ltool-x250-grey.png
 [ltool-logo-large]: resources/images/ltool-x1500-grey.png
 
+*An experiment in a modular build tool for LFE*
 
 ##### Contents
 
