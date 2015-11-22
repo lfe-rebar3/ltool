@@ -28,23 +28,16 @@ This project assumes that you have
 
 ## Installation [&#x219F;](#contents)
 
-Just add it to your ``rebar.config`` deps:
-
-```erlang
-  {deps, [
-    ...
-    {ltool, ".*",
-      {git, "git@github.com:lfe-rebar3/ltool.git", "master"}}
-      ]}.
-```
-
-And then do the usual:
+For now:
 
 ```bash
-    $ rebar3 compile
+$ git clone https://github.com/lfe-rebar3/ltool.git
+$ cd ltool
+$ rebar3 compile
 ```
-
 
 ## Usage [&#x219F;](#contents)
 
-Add content to me here!
+```bash
+$ rebar3 help lfe
+```
