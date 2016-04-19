@@ -10,3 +10,5 @@ bin/expm
 .rebar
 logs/*
 _build
+bin/*
+priv/images/*.xcf
