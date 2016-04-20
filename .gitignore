@@ -10,5 +10,6 @@ bin/expm
 .rebar
 logs/*
 _build
+_checkouts
 bin/*
 priv/images/*.xcf
