@@ -1,3 +1,4 @@
 PROJECT = ltool
 
-include resources/make/common.mk
+include priv/make/code.mk
+include priv/make/docs.mk
