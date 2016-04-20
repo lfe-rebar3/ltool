@@ -10,19 +10,19 @@ repl:
 	@$(LFE)
 
 check:
-	@rebar3 as prod lfe test
+	@rebar3 do clean,compile,lfe test -t unit
 
 unit:
-	@rebar3 as prod lfe test -t unit
+	@rebar3 do clean,compile,lfe test -t unit
 
 system:
-	@rebar3 as prod lfe test -t system
+	@rebar3 do clean,compile,lfe test -t system
 
 integration:
-	@rebar3 as prod lfe test -t integration
+	@rebar3 do clean,compile,lfe test -t integration
 
 check-all:
-	@rebar3 as prod lfe test -t all
+	@rebar3 do clean,compile,lfe test -t all
 
 clean:
 	@rebar3 as prod clean
