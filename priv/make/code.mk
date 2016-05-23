@@ -1,7 +1,13 @@
+INSTALL_DIR ?= /usr/local/bin
+BUILD_DIR = _build/prod/bin
+
 .PHONY: build repl check check-quiet clean
 
 build:
 	@rebar3 as prod compile
+
+install: build
+	sudo cp $(BUILD_DIR)/ltool $(INSTALL_DIR)
 
 dev:
 	@rebar3 as dev compile
